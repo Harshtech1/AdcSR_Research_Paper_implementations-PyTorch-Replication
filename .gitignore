@@ -1,0 +1,47 @@
+# User-specified exclusions for AdcSR Project
+data/hr_images/
+data/lr_images/
+lightning_logs/
+*.ckpt
+*.zip
+__pycache__/
+
+# Additional recursive safety matches (in case folders are placed under adcsr_phase1_submission)
+**/data/hr_images/
+**/data/lr_images/
+**/lightning_logs/
+**/*.ckpt
+**/*.zip
+**/__pycache__/
+
+# Python build and distribution
+*.py[cod]
+*$py.class
+*.so
+.ipynb_checkpoints
+.pytest_cache/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Environments
+.venv
+venv/
+ENV/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Agent files
+.agent/
+
